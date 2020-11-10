@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<body style="background-color:greenyellow;"></style>
+    <html>
+        <h1>Travel Reservation Form</h1>
+        <h4>* denotes mandatory</h4>
+        <form>
+            Full Name * :
+            <br>
+            <input type="text" value="FirstName, LastName", size=50>
+            <br><br>
+            Email Address * :
+            <br>
+            <input type="text" value="EMAIL_ADDRESS" size=25>
+            <br><br>
+            
+            <!-- Drop down box -->
+            <label for="Tour">Select Tour Package:</label><br>
+            <select name="Tour" id="Tour">
+              <option value="Goa">Goa</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="New Delhi">New Delhi</option>
+              <option value="Kolkata">Kolkata</option>
+            </select>  
+
+            <br><br>
+            Arrival Date * :
+            <br>
+            <input type="=text" value="mm/dd/yy">
+            <br><br>
+            Number of Persons * :
+            <br>
+            <input type="text" value="UNKNOWN TYPE">
+            <br><br>
+
+            What would you like to avail? * 
+            <br><br>
+            <form action="/action_page.php">
+                <label for="Boarding"> Boarding</label>
+                <input type="checkbox" id="Boarding" name="Boarding" value="Boarding">
+                <br>
+                <label for="Fooding"> Fooding</label>
+                <input type="checkbox" id="Fooding" name="Fooding" value="fooding">
+                <br>
+                <label for="Sight seeing"> Sight seeing</label>
+                <input type="checkbox" id="Sight seeing" name="Sight seeing" value="Sight seeing">
+                <br>
+            </form>
+            Discount Coupon code:
+            <br>
+            <input type="=text" value="UNKOWN_TYPE">
+            <br><br>
+
+            Terms and Conditions *:
+            <br>
+            <!-- Radio buttons -->
+            <form>
+                <input type="radio" id="I agree" name="I agree" value="I agree">
+                <label for="I agree">I agree</label>
+                <input type="radio" id="I disagree" name="I disagree" value="I disagree">
+                <label for="I disagree">I disagree</label><br>
+            </form>
+            <br>
+            <!-- Complete Reservation Button -->
+            <button type="button">Complete reservation!</button>
+        </form>
+
+    </html>
+</body>
